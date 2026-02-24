@@ -11,4 +11,4 @@ in the buildfile you can do: <br>
 name = efineinwofn ; sets name to "efineinwofn"<br>
 nasm boot.asm -o boot.bin ; runs nasm as a terminal command<br>
 out = append(boot.bin, boot.asm) ; appends boot.asm to the end of boot.bin<br>
-file out, full.bin ; makes a file called full.bin with the contense of out in it<br>
+file out, full.bin ; makes a file called full.bin with the contents of out in it<br>
